@@ -1,0 +1,56 @@
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 60px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px #ddd;
+          box-shadow: 0px 0px 5px #ddd;
+}
+
+header h3 {
+  display: inline-block;
+  position: absolute;
+  left: 40px;
+  top: -14px;
+  font-size: 28px;
+  background: linear-gradient(115deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header div {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  height: 40px;
+  width: 600px;
+}
+
+header div svg {
+  position: absolute;
+  fill: #aaa;
+  left: 15px;
+  top: 0px;
+  height: 40px;
+}
+
+header div input {
+  padding: 15px 40px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px #ddd inset;
+          box-shadow: 0px 0px 5px #ddd inset;
+  border-radius: 40px;
+  color: #aaa;
+}
+/*# sourceMappingURL=style.css.map */
