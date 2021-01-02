@@ -2,10 +2,14 @@
   outline: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: monospace;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 header {
+  font-family: monospace;
   position: fixed;
   left: 0px;
   right: 0px;
@@ -55,6 +59,7 @@ header div input {
 }
 
 main {
+  font-family: sans-serif;
   position: fixed;
   left: 0px;
   right: 0px;
@@ -66,6 +71,7 @@ main {
 main article {
   margin: 40px auto;
   max-width: 600px;
+  padding: 0px 25px;
 }
 
 main article a {
@@ -81,18 +87,20 @@ main article a:visited h1 {
 }
 
 main article h1 {
-  font-size: 16px;
+  font-size: 18px;
   color: #3943B7;
   line-height: 0.4;
   padding: 0px;
   margin: 0px;
+  font-weight: 900;
 }
 
 main article h3 {
-  font-size: 10px;
+  font-size: 14px;
   color: #999999;
   padding: 0px;
-  margin: 5px 0px 10px 0px;
+  margin: 10px 0px 5px 0px;
+  font-weight: 100;
 }
 
 main article p {
@@ -100,5 +108,75 @@ main article p {
   color: #333;
   padding: 0px;
   margin: 0px;
+  line-height: 1.4;
+}
+
+main article table {
+  padding: 10px 25px;
+}
+
+main article table h1 {
+  font-weight: 700;
+  margin: 15px 0px 10px 0px;
+}
+
+aside + main {
+  right: 500px;
+}
+
+aside {
+  font-family: sans-serif;
+  position: fixed;
+  top: 90px;
+  right: 30px;
+  width: 440px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+aside .header {
+  margin: 0px -25px 20px -25px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 25px;
+}
+
+aside h1 {
+  font-size: 24px;
+  margin: 5px;
+  color: #333;
+}
+
+aside h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  color: #666666;
+}
+
+aside p {
+  font-size: 14px;
+  color: #333;
+  padding: 0px;
+  margin: 5px;
+  line-height: 1.4;
+}
+
+aside table {
+  padding: 15px;
+}
+
+aside table th, aside table td {
+  text-align: left;
+  padding: 0px 5px 5px 5px;
+  font-size: 14px;
+}
+
+aside .footer {
+  margin: 20px -25px 0px -25px;
+  border: none;
+  border-top: 1px solid #ddd;
+  padding: 10px 25px;
 }
 /*# sourceMappingURL=style.css.map */
